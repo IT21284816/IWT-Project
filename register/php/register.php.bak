@@ -1,0 +1,91 @@
+<?php include 'server.php'?>
+
+
+<!DOCKTYPE html>
+<html lang ="en" dir"ltr">
+<head>
+<link rel="stylesheet" type="text/css" href="css/reg1.css">
+<title>Registration</title>
+</head>
+<body>
+    <link href="css/head.css" rel="stylesheet">	
+	<?php include('head.php') ;?>
+    
+	<br>
+	<br>
+	<br>
+	<center>
+    <div class="container" >
+	
+    <div class="title"><b>Registration</b></div>
+	<br>
+	<br>
+	<br>
+	    <form method="get" action="register.php">
+		    
+			
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="firstname"><b>First Name</b></label>
+                    <input type="text" name="firstname" placeholder="Enter first your name" required>
+                </div>
+				<div class="input-box">
+                    <label for="lastname"><b>Last Name</b></label>
+                    <input type="text" name="lastname" placeholder="Enter last your name" required>
+                </div>
+				<div class="input-box">
+                    <label for="email"><b>Email address</b></label>
+                    <input type="text" name="email" placeholder="Enter your email address" required>
+                </div>
+				<div class="input-box">
+                    <label for="id"><b>ID/Passport number</b></label>
+                    <input type="text" name="id" placeholder="Enter the number" required>
+                </div>
+				<div class="input-box">
+                    <label for="address"><b>Home address</b></label>
+                    <input type="text" name="address" placeholder="Enter your home address" required>
+                </div>
+
+				<div class="input-box">
+                    <label for="contactno"><b>Contact Number</b></label>
+                    <input type="text" name="contactno" placeholder="Enter your number" required>
+                </div>
+				<div class="input-box">
+                    <label for="vehiclenumber"><b>Vehicle Number</b></label>
+                    <input type="text" name="vehiclenumber" placeholder="Enter your vehicle number" required>
+                </div>
+				<label for="vehicletype"><b>Choose your vehicle type:</b></label>
+                        <select id="vehicletype" name="vehicletype">
+                            <option value="car">Car</option>
+                            <option value="van">Van</option>
+							<option value="suv">SUV</option>
+                            <option value="bike">Bike</option>
+							<option value="other">Other</option>
+                        </select>
+                <div class="input-box">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" name="password1" placeholder="Enter your password" required>
+                </div>
+				<div class="input-box">
+                    <label for="password"><b>Confirm Password</b></label>
+                    <input type="password" name="password2" placeholder="Confirm your password" required>
+                </div>
+            </div>
+			<div class="button">
+			<input type="submit" value="Register">
+			</div>
+			<label for="reglink">Already have an account?</label>
+	        <a href="login.php">login</a>
+        </form>
+	</div>	
+	<center>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+<link href="css/footer.css" rel="stylesheet">	
+	<?php include('footer.php') ;?>
+	
+</body>
+</html>

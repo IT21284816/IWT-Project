@@ -1,0 +1,132 @@
+body{
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden ;
+    text-align: center;
+}
+
+header{
+    background-color: #333;
+    padding: 50px;
+    box-shadow: 0 0 0 3px #000;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+
+}
+
+header li a{
+    color: rgb(252, 250, 250);
+    text-decoration: none;
+    padding:13px;
+    transition: .3s ease;
+}
+
+header li a:hover{
+    color:#ff7200}
+
+header li #user{
+        float: left;
+        width: 20px;
+}
+    
+header #login a{
+
+    background-color:#ff7200;
+    border-radius: 30px;
+    float: left;
+    position: relative;
+    top: -15px;
+    color: #000;
+    
+
+}
+
+header ul #login a:hover
+{
+    background-color: #160d0d;
+}
+
+#logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Ariel;
+    padding-left: 20px;
+    float: right;
+    padding-top: 10px;
+}
+
+.active{
+    color: #ff7200;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.cn{
+
+    width: 260px;
+    height: 80px;
+    background-color: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.cn:hover{
+    background-color: #fff;
+    
+}
+
+.content{
+    float: right;
+    color: #ff7200;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    position: relative;
+
+}
+
+.per{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 30px;
+
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-right: 10px;
+    margin-top: 9%;
+    
+}
+
+
+
+

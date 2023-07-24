@@ -1,0 +1,42 @@
+<!DOCKTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/profile.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <link href="../css/head.css" rel="stylesheet">	
+	<?php include('head1.php') ;?>
+
+     <br>
+	 <br>
+	 <br>
+	<center>
+     <div class="profile" >
+	 
+	    <div class="title"><b>User Profile</b></div>
+	    <div class="profile_img" align="center">
+		    <img src="../images/propic.jpg"  width="200" alt="profile picture">
+	    </div>
+		
+			<h1 class="username" align="center" >Akash Fernando</h1>
+			
+              
+                <div class="profile-side">
+				     <p class="contactno" align="center"><b>Tel : 0771234567</b></p>
+                     <p class="email" align="center"><b>E-mail : akash99@gmail.com</b></p>
+					 <p class="id" align="center"><b>ID number : 19939021384v </b></p>
+					 <p class="address" align="center"><b>Address : 221/B, Colombo 3</b></p>
+					 <p class="vehiclenumber" align="center"><b>Vehicle No : CAB-1212</b></p>
+					 <p class="vehicletype" align="center"><b>Vehicle Type : Car</b></p>   
+		        </div>	
+			
+	 </div>
+	 </center>	
+	 <br>
+	 <br>
+	 <br>
+	 	<link href="../../footer/footer.css" rel="stylesheet">	
+	<?php include('../../footer/footer.php') ;?>
+</body>
+</html>
